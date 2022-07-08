@@ -1,11 +1,12 @@
-import * as React from "react"
+import * as React from 'react'
 import Navbar from '../components/Navbar'
+import '../sass/basics.scss'
 
-// markup
+
 const IndexPage = () => {
-  return (
-   <Navbar/>
-  )
+    return (
+        <Navbar/>
+    )
 }
 
 export default IndexPage

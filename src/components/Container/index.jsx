@@ -2,10 +2,10 @@ import * as React from 'react'
 import * as styles from './styles.module.scss'
 
 
-const Container = ( { children } ) => {
-
+const Container = ( { children, size } ) => {
+const containerClasses = [styles.container, styles[size]]
     return (
-        <div className={ styles.container }>
+        <div className={ containerClasses.join(' ') }>
             { children }
         </div>
     )

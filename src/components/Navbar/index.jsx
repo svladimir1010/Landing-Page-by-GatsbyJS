@@ -10,14 +10,14 @@ const Navbar = () => {
             <Container>
                 <div className={ styles.navbarInner }>
                     <div className={styles.navbarLeft}>
-                        <a href="#" className={ styles.logo }>zap marketing</a>
+                        <a href="#" className={ styles.logo }>Zap Marketing</a>
                         <ul className={ styles.list }>
-                            <li className={ styles.listItem }><a href="#">about</a></li>
-                            <li className={ styles.listItem }><a href="#">solution</a></li>
-                            <li className={ styles.listItem }><a href="#">work</a></li>
+                            <li className={ styles.listItem }><a href="#">About</a></li>
+                            <li className={ styles.listItem }><a href="#">Solution</a></li>
+                            <li className={ styles.listItem }><a href="#">Work</a></li>
                         </ul>
                     </div>
-                    <a href="#" className={ styles.cta }>contact</a>
+                    <a href="#" className={ styles.cta }>Contact</a>
                 </div>
             </Container>
         </div>
